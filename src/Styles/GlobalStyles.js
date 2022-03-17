@@ -22,12 +22,24 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     .loading {
+        width: 43px;
+        height: 43px;
+        background: transparent;
         position: fixed;
         bottom: 2px;
-        font-size: 1.2rem;
-        background: white;
-        padding: 3px 5px;
-        border: 2px solid #1e90ff;
-        border-radius: 10px;
+        border: 7px dotted black;
+        border-radius: 50%;
+        border-top-color: transparent;
+
+        animation: loading infinite .9s linear;
+
+        @keyframes loading {
+        to {
+            transform: rotate(0);
+        } from {
+            transform: rotate(360deg);
+        }
+    }
+
     }
 `;

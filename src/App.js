@@ -54,7 +54,7 @@ function App() {
         <Post key={post.id} post={post} />
       ))}
 
-      {loading && <p className="loading">Loading . . .</p>}
+      {loading && <div className="loading"></div>}
     </div>
   );
 }
