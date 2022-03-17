@@ -36,7 +36,7 @@ function App() {
     const viewHeight = window.innerHeight;
     const scrolled = document.documentElement.scrollTop;
     const total = document.documentElement.offsetHeight;
-    const isFullScrolled = viewHeight + scrolled === total - 2;
+    const isFullScrolled = viewHeight + scrolled >= total - 2;
 
     if (!loading && isFullScrolled && posts.length < totalPosts) {
       setUserId(userId + 1);
