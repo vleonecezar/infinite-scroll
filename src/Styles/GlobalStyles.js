@@ -20,4 +20,14 @@ export const GlobalStyles = createGlobalStyle`
         min-height: 100vh;
         padding-top: 50px;
     }
+
+    .loading {
+        position: fixed;
+        bottom: 2px;
+        font-size: 1.2rem;
+        background: white;
+        padding: 3px 5px;
+        border: 2px solid #1e90ff;
+        border-radius: 10px;
+    }
 `;
