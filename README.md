@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Infinite Scroll 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <a href="#-sobre">Sobre</a> | <a href="#-tecnologias">Tecnologias</a> | <a href="#-teste-a-aplicação">Teste a Aplicação</a> 
+</div>
+<br>
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+![takecontrol](https://user-images.githubusercontent.com/76831929/159002147-9aaf6acc-28eb-4c34-bd1e-6df3e2590253.gif)
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 👨🏻‍🏫 Sobre
+Esta é uma aplicação que visou o estudo e a prática do infinite scroll em uma aplicação React. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 🤳🏻 Funcionalidades
 
-### `npm test`
+- Infinite Scroll
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 🚀 Tecnologias
 
-### `npm run build`
+- <a href="https://pt-br.reactjs.org/" target="_blank">React</a> <br>
+- <a href="https://styled-components.com/" target="_blank">Styled Components</a> <br>
+- <a href="https://axios-http.com/" target="_blank">Axios</a> <br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 👨🏻‍💻 Teste a aplicação
+Você pode testar a aplicação <a href="https://vleonecezar.github.io/infinite-scroll/" target="_blank">clicando aqui</a>. <br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ### Clone o repositório
+```
+  git clone https://github.com/vleonecezar/infinite-scroll.git
+```
+  ### Instale todos os pacotes
+```
+  npm install
+```
+  ### Abra a aplicação localmente
+```
+  npm start
+```
+  ### Deixe a aplicação pronta para produção
+```
+  npm run build
+```
